@@ -1,0 +1,36 @@
+.container{
+    width: 1000px;
+   border: 2px solid;
+    /* background-color: bisque; */
+    padding: 10px;
+    display: flex;
+    height: 600px;
+    /* justify-content: center; */
+    /* flex-flow: column wrap; */
+    /* align-content: start; */
+    /* align-items: start; */
+    /* align-content: end; */
+    /* gap: 50px; */
+    /* align-items: start; */
+    /* flex-direction: column; */
+    flex-wrap: wrap-reverse;
+}
+.item-1,.item-6,.item-8,.item-15{
+    background-color: lightblue;
+}
+.item-2,.item-7,.item-9{
+    background-color: lightcoral;
+}
+.item-3,.item-10,.item-12{
+    background-color: lightgreen;
+}
+.item-4, .item-11,.item-13{
+    background-color: brown;
+}
+.item-5,.item-14{
+    background-color: deeppink;
+}
+.item{
+    padding: 10px;
+    font-size: 2rem;
+}
