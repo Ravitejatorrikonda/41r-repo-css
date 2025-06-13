@@ -1,0 +1,34 @@
+/* a:link{
+    color: brown;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+input:focus{
+   outline: none; */
+   /* border: 2px solid black; */
+/* } */
+
+.container{
+    background-color: deeppink;
+    width: fit-content;
+    padding: 10px;
+}
+.item:hover{
+    color: bisque;
+}
+.container{
+    display: none;
+}
+#menu:checked ~.container{
+    display: block;
+}
+#menu{
+    display: none;
+}
