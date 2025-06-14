@@ -1,0 +1,50 @@
+/* .letter::first-letter{
+    color: red;
+    font-size: 40px;
+}
+.line::first-line{
+    color: blueviolet;
+}
+.line::selection{
+    color: chocolate;
+    background-color: brown;
+} */
+ /* li::marker{
+    content: '↓ ';
+ } */
+  /* input::placeholder{
+    text-align: center;
+    font-size: 2rem;
+  }
+  input{
+    height: 50px;
+  } */
+
+/* .after::after{
+    content: '♥';
+}
+.before::before{
+    content: '♥';
+} */
+
+:root{
+    --primary-color:#2BD299;
+    --Secondary-color: #FFFFFE;
+    --Accent-color: #7E7D86;
+}
+p::first-letter{
+    color: var(--primary-color);
+}
+p::first-line{
+    color: var(--Accent-color);
+}
+
+
+
+
+
+
+
+
+
+
