@@ -1,0 +1,52 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 10vh;
+    border: 2px solid;
+    display: flex;
+   justify-content: space-between;
+}
+*>.container{
+    background-color: #203040;
+}
+.item{
+    color: white;
+    padding: 2vw;
+}
+i{
+    color: white;
+    font-size: 4em;
+    display: none;
+}
+
+@media screen and (width < 600px) {
+    i{
+        display: block;
+    }
+    .item{
+        display: none;
+    }
+    
+} */
+
+.container{
+    height: 50vh;
+    border: 2px solid;
+}
+.child{
+    width: 100%;
+    height:100% ;
+    background-color: aqua;
+}
+@media screen and (orientation: portrait) {
+    .child{
+        width: 50%;
+        background-color: aqua;
+    }
+    
+}
