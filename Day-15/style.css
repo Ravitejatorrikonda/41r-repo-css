@@ -1,0 +1,27 @@
+.container{
+    border: 2px solid;
+    display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px 400px 100px;
+
+
+}
+*>.item{
+    color: white;
+  text-align: center;
+    background-color: #203040;
+}
+.item{
+    padding: 10px;
+}
+.b{
+    grid-column: 2/4;
+}
+.a{
+    grid-row: 1/4;
+}
+.f{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
